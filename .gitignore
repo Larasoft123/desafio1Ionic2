@@ -1,0 +1,16 @@
+# Ignorar todos los archivos, excepto los .txt y .md
+*
+!.gitignore
+!*.apk
+
+
+# Ignorar todo en la carpeta build
+!android/
+!android/app
+!android/app/build
+!android/app/build/intermadiates
+!android/app/build/intermadiates/apk
+!android/app/build/intermadiates/apk/debug
+
+# Ignorar archivos temporales
+*.swp
